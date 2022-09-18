@@ -117,7 +117,6 @@ PRODUCT_PACKAGES += \
     libexynosgscaler \
     libexynosgraphicbuffer \
     libexynosscaler \
-    libexynosutils \
     libexynosv4l2 \
     libfloatingfeature \
     libgf_in_system_lib \
