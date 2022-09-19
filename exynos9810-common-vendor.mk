@@ -114,7 +114,6 @@ PRODUCT_PACKAGES += \
     libcsc \
     libegis_fp_normal_sensor_test \
     libexynosdisplay \
-    libexynosgscaler \
     libexynosgraphicbuffer \
     libexynosv4l2 \
     libfloatingfeature \
