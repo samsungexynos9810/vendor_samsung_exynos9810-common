@@ -128,7 +128,6 @@ PRODUCT_PACKAGES += \
     libsecril-client.exynos9810 \
     libsemnativecarrierfeature \
     libsensorlistener \
-    libstagefrighthw \
     libsynaFpSensorTestNwd \
     libuniapi \
     libuniplugin \
