@@ -95,11 +95,9 @@ PRODUCT_PACKAGES += \
     camera.device@3.3-impl.exynos9810 \
     camera.device@3.5-impl.exynos9810 \
     gatekeeper.exynos9810 \
-    gralloc.exynos9810 \
     power.exynos9810 \
     libExynosOMX_Core \
     libExynosOMX_Resourcemanager \
-    libGrallocWrapper \
     libIDDQD_core \
     libIDDQD_interface \
     libMcClient \
