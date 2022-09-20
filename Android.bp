@@ -170,27 +170,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "hwcomposer.exynos9810",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/hwcomposer.exynos9810.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/hwcomposer.exynos9810.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "power.exynos9810",
 	owner: "samsung",
 	strip: {
@@ -207,26 +186,6 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	check_elf_files: false,
 	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libExynosHWCService",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libExynosHWCService.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libExynosHWCService.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -514,26 +473,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcsc",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libcsc.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcsc.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libegis_fp_normal_sensor_test",
 	owner: "samsung",
 	strip: {
@@ -554,26 +493,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libexynosdisplay",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libexynosdisplay.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libexynosdisplay.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libexynosgraphicbuffer",
 	owner: "samsung",
 	strip: {
@@ -585,26 +504,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libexynosgraphicbuffer.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libexynosv4l2",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libexynosv4l2.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libexynosv4l2.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -1680,23 +1579,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libkeymaster2_mdfpp.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmpp",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmpp.so"],
 		},
 	},
 	compile_multilib: "64",

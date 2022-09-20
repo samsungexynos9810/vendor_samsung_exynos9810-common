@@ -96,9 +96,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.5-impl.exynos9810 \
     gatekeeper.exynos9810 \
     gralloc.exynos9810 \
-    hwcomposer.exynos9810 \
     power.exynos9810 \
-    libExynosHWCService \
     libExynosOMX_Core \
     libExynosOMX_Resourcemanager \
     libGrallocWrapper \
@@ -111,11 +109,8 @@ PRODUCT_PACKAGES += \
     libacryl_plugin_slsi_hdr10 \
     libbauthserver \
     libbauthtzcommon \
-    libcsc \
     libegis_fp_normal_sensor_test \
-    libexynosdisplay \
     libexynosgraphicbuffer \
-    libexynosv4l2 \
     libfloatingfeature \
     libgf_in_system_lib \
     libgiantmscl \
@@ -170,7 +165,6 @@ PRODUCT_PACKAGES += \
     libbt-vendor.exynos9810 \
     libengmode_client \
     libkeymaster2_mdfpp \
-    libmpp \
     libril-samsung \
     libsec-ril \
     libsec-ril-dsds \
