@@ -107,7 +107,6 @@ PRODUCT_PACKAGES += \
     libexynosgraphicbuffer \
     libfloatingfeature \
     libgf_in_system_lib \
-    libhwjpeg \
     libiva_android_hal \
     libqfp_sensortest \
     libsecaudioinfo \
