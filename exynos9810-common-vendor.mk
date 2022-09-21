@@ -103,7 +103,6 @@ PRODUCT_PACKAGES += \
     libMcClient \
     libOpenCv.camera.samsung \
     libSEF.quram \
-    libacryl \
     libacryl_plugin_slsi_hdr10 \
     libbauthserver \
     libbauthtzcommon \
@@ -111,7 +110,6 @@ PRODUCT_PACKAGES += \
     libexynosgraphicbuffer \
     libfloatingfeature \
     libgf_in_system_lib \
-    libgiantmscl \
     libhwjpeg \
     libiva_android_hal \
     libqfp_sensortest \

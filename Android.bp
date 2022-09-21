@@ -352,26 +352,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libacryl",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libacryl.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libacryl.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libacryl_plugin_slsi_hdr10",
 	owner: "samsung",
 	strip: {
@@ -503,26 +483,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgf_in_system_lib.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libgiantmscl",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libgiantmscl.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libgiantmscl.so"],
 		},
 	},
 	compile_multilib: "both",
