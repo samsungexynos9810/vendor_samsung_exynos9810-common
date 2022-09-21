@@ -96,8 +96,6 @@ PRODUCT_PACKAGES += \
     camera.device@3.5-impl.exynos9810 \
     gatekeeper.exynos9810 \
     power.exynos9810 \
-    libExynosOMX_Core \
-    libExynosOMX_Resourcemanager \
     libIDDQD_core \
     libIDDQD_interface \
     libMcClient \
@@ -123,19 +121,6 @@ PRODUCT_PACKAGES += \
     libvkmanager_vendor \
     libvxu \
     libwrappergps \
-    libOMX.Exynos.AVC.Decoder \
-    libOMX.Exynos.AVC.Encoder \
-    libOMX.Exynos.AVC.WFD.Encoder \
-    libOMX.Exynos.HEVC.Decoder \
-    libOMX.Exynos.HEVC.Encoder \
-    libOMX.Exynos.HEVC.WFD.Encoder \
-    libOMX.Exynos.MPEG4.Decoder \
-    libOMX.Exynos.MPEG4.Encoder \
-    libOMX.Exynos.VP8.Decoder \
-    libOMX.Exynos.VP8.Encoder \
-    libOMX.Exynos.VP9.Decoder \
-    libOMX.Exynos.VP9.Encoder \
-    libOMX.Exynos.WMV.Decoder \
     sensors.grip \
     sensors.sensorhub \
     thermal.exynos9810 \
