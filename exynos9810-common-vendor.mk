@@ -103,7 +103,6 @@ PRODUCT_PACKAGES += \
     libMcClient \
     libOpenCv.camera.samsung \
     libSEF.quram \
-    libacryl_plugin_slsi_hdr10 \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
