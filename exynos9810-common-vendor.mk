@@ -105,8 +105,6 @@ PRODUCT_PACKAGES += \
     libMcClient \
     libOpenCv.camera.samsung \
     libSEF.quram \
-    libacryl \
-    libacryl_plugin_slsi_hdr10 \
     libbauthserver \
     libbauthtzcommon \
     libcsc \

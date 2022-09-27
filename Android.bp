@@ -393,46 +393,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libacryl",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libacryl.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libacryl.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libacryl_plugin_slsi_hdr10",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libacryl_plugin_slsi_hdr10.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libacryl_plugin_slsi_hdr10.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libbauthserver",
 	owner: "samsung",
 	strip: {
