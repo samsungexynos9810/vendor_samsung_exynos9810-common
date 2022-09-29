@@ -1187,6 +1187,303 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libExynosC2ComponentStore",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2ComponentStore.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2ComponentStore.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2Av1Dec",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2Av1Dec.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2Av1Dec.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2H263Dec",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2H263Dec.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2H263Dec.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2H263Enc",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2H263Enc.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2H263Enc.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2H264Dec",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2H264Dec.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2H264Dec.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2H264Enc",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2H264Enc.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2H264Enc.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2HevcDec",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2HevcDec.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2HevcDec.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2HevcEnc",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2HevcEnc.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2HevcEnc.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2Mpeg4Dec",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2Mpeg4Dec.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2Mpeg4Dec.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2Mpeg4Enc",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2Mpeg4Enc.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2Mpeg4Enc.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2Vp8Dec",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2Vp8Dec.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2Vp8Dec.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2Vp8Enc",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2Vp8Enc.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2Vp8Enc.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2Vp9Dec",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2Vp9Dec.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2Vp9Dec.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libExynosC2Vp9Enc",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libExynosC2Vp9Enc.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libExynosC2Vp9Enc.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libavservices_minijail_vendor",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libavservices_minijail_vendor.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "thermal.exynos9810",
     owner: "samsung",
     strip: {
@@ -1819,6 +2116,19 @@ cc_prebuilt_binary {
 	strip: {
 		none: true,
 	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "samsung.hardware.media.c2@1.0-service",
+	owner: "samsung",
+	srcs: ["proprietary/vendor/bin/hw/samsung.hardware.media.c2@1.0-service"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	relative_install_path: "hw",
 	prefer: true,
 	soc_specific: true,
 }

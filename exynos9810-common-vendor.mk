@@ -187,6 +187,35 @@ PRODUCT_PACKAGES += \
     mcDriverDaemon \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
 
+### Codec2
+# Service
+PRODUCT_PACKAGES += \
+    samsung.hardware.media.c2@1.0-service
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/samsung.hardware.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.hardware.media.c2@1.0-service.rc
+
+# Dependencies
+PRODUCT_PACKAGES += \
+    libavservices_minijail_vendor
+
+# Components
+PRODUCT_PACKAGES += \
+    libExynosC2ComponentStore \
+    libExynosC2Av1Dec \
+    libExynosC2H263Dec \
+    libExynosC2H263Enc \
+    libExynosC2H264Dec \
+    libExynosC2H264Enc \
+    libExynosC2HevcDec \
+    libExynosC2HevcEnc \
+    libExynosC2Mpeg4Dec \
+    libExynosC2Mpeg4Enc \
+    libExynosC2Vp8Dec \
+    libExynosC2Vp8Enc \
+    libExynosC2Vp9Dec \
+    libExynosC2Vp9Enc
+
 # HWComposer
 PRODUCT_PACKAGES += \
     libdrm.exynos9810 \
