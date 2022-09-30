@@ -150,7 +150,6 @@ PRODUCT_PACKAGES += \
     lib_soundaliveresampler \
     libaboxpcmdump \
     libalsautils_sec \
-    libaudio-ril \
     libaudiodebugfs \
     libcnn \
     libcodecdspdump \
