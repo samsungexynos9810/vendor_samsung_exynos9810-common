@@ -149,15 +149,12 @@ PRODUCT_PACKAGES += \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
     libaboxpcmdump \
-    libalsautils_sec \
     libaudiodebugfs \
     libcnn \
     libcodecdspdump \
     libdatamod \
     libhfd \
     libstagefright_omx_vendor \
-    libaudioroute.exynos9810 \
-    libtinyalsa.exynos9810 \
     android.hardware.gnss@2.0-impl \
     gps.default \
     keystore.mdfpp \
